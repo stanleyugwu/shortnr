@@ -1,0 +1,24 @@
+{
+  "name": "shortnr",
+  "version": "1.0.0",
+  "description": "url shortner with api support",
+  "main": "shortnr.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "url-shortner",
+    "shortnr",
+    "api",
+    "post",
+    "get"
+  ],
+  "author": "Devvie",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
