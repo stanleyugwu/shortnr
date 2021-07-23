@@ -25,7 +25,7 @@ const Navigation = (props) => {
                                         <Button
                                             href={text == 'Login' || text == 'Sign Up' ? false : url}
                                             variant={text == 'Login' ? 'outline-primary' : text == 'Sign Up' ? 'primary' : false}
-                                            className={text == 'Sign Up' ? 'text-white' : 'text-primary'}
+                                            className={text != 'Sign Up' && text != 'Login' ? 'text-primary' : null}
                                         >
                                             {text}
                                         </Button>

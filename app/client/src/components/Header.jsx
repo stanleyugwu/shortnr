@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 import s from '../styles/Header.module.css';
-import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import { faBars, faSun, faTimes } from '@fortawesome/free-solid-svg-icons';
 
