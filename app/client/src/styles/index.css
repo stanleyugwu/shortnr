@@ -1,1 +1,12 @@
 @import url(../assets/bootstrap-5.0.2/dist/css/bootstrap.min.css);
+
+html{
+    background: linear-gradient(rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.603)), url(../assets/images/bg.jpg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+html{
+    height: 100%;
+}
