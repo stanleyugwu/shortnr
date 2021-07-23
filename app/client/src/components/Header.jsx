@@ -10,7 +10,7 @@ const Header = (props) => {
     const [menuVisible, setMenuVisible] = useState(false);
 
     return (
-        <header className={'pt-2 mb-5 border-none border-bottom px-lg-5 pb-3'}>
+        <header className={'pt-2 mb-5 border-none border-bottom px-lg-5 pb-3 sticky-top bg-white'}>
             <div className="row">
                 <div className="col-2 d-flex align-items-center">
                     <h3>Shortnr</h3>

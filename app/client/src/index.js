@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/Header';
+import App from './App/App';
+import './styles/index.css';
 
-const App = (props) => {
+const MainApp = (props) => {
     return (
-        <>
-            <Header/>
-            <h2>HELLO THERE</h2>
-        </>
+        <App/>
     )
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'))
+ReactDOM.render(<MainApp/>, document.getElementById('app'));
